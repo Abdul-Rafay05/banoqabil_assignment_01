@@ -1,0 +1,162 @@
+.link_fc{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.link_fc:hover{
+    color: #1abc9c !important;
+    transition: 0.5s;
+}
+.head_row {
+    /* width: 100%; */
+    background-color: #2c3e50;
+    height: 12vh;
+    padding: 0 50px;
+
+}
+
+.row_first {
+    height: 100vh;
+}
+
+.row_second {
+    height: 130vh;
+
+}
+
+.row_third {
+    height: 80vh;
+    background-color: #1abc9c;
+    /* padding: 0 250px; */
+}
+
+#btn_first {
+    width: 250px;
+    height: 70px;
+    font-size: 22px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+#btn_first:hover {
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 2px solid white;
+}
+.row_forth{
+    height: 120vh;
+}
+.input_h{
+    height: 10vh;
+    background-color: rgb(241, 241, 241);
+}
+.input_c{
+    background-color: rgb(241, 241, 241);
+}
+#btn_second{
+    width: 180px;
+    height: 70px;
+    font-size: 22px;
+    background-color: #1abc9c;
+    color: rgb(0, 0, 0);
+    border: 2px solid #1abc9c;
+}
+.row_footer{
+    background-color: #2c3e50;
+    height: 50vh;
+}
+.icon_circle {
+    width: 50px;
+    height: 50px;
+    background-color: #2c3e50;
+    border-radius: 50px;
+    border: 2px solid white;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.icon_circle:hover {
+    background-color: white;
+    color: #000000;
+    transition: 0.5s;
+}
+@media only screen and (max-width: 360px) {
+    .row_second {
+        height: 250vh;
+    
+    }
+    .row_third{
+        height: 100vh;
+    }
+    .row_footer{
+        height: 100vh;
+
+    }
+}
+@media only screen and (max-width: 600px) {
+    .row_second {
+        height: 280vh;
+    
+    }
+}
+@media only screen and (max-width: 712px) {
+    .row_second {
+        height: 280vh;
+    
+    }
+}
+@media only screen and (max-width: 384px) {
+    .row_footer{
+        height: 100vh;
+
+    }
+}
+@media only screen and (max-width: 640px) {
+    .row_first{
+        height: 130vh;
+
+    }
+    .row_second{
+        height: 800vh;
+
+    }
+    .row_third{
+        height: 120vh;
+
+    }
+    .row_forth{
+        height: 160vh;
+
+    }
+    .row_footer{
+        height: 160vh;
+
+    }
+}
+@media only screen and (max-width: 360px) and (max-height: 640px) {
+
+    .row_second{
+        height: 250vh;
+
+    }
+}
+@media only screen and (max-width: 412px) and (max-height: 823px) {
+
+    .row_second{
+        height: 250vh;
+
+    }
+    .row_third{
+        height: 100vh;
+
+    }
+    .row_forth{
+        height: 100vh;
+
+    }
+    .row_footer{
+        height: 100vh;
+
+    }
+}
